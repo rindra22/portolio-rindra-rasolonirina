@@ -6,11 +6,11 @@
 <meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Portfolio</title>
-<meta property="og:type" content="rv-tech portfolio" />
+<meta property="og:type" content="Rindra Rasolonirina portfolio" />
 <meta property="og:title" content="Rindra Rasolonirina - Portfolio" />
 <meta property="og:description" content="Développeur web et mobile freelance et créateur de site internet. Création ou refonte de site internet, intégration, référencement" />
 <meta property="og:image" itemprop="image" content="partials/facebook_banner.html" />
-<meta property="og:url" content="" />
+<meta property="og:url" content="https://rrv.herokuapp.com/" />
 <meta property="og:image:width" content="1024" />
 <meta property="og:image:height" content="1024" />
 <meta name="twitter:card" content="summary_large_image">
