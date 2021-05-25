@@ -24,11 +24,11 @@
 <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
 
 <!-- Style CSS -->
-<link type="text/css" media="all" href="{{ asset('css/bootstrap.min.css') }}" rel="stylesheet">
-<link type="text/css" media="all" href="{{ asset('css/jquery.animatedheadline.css') }}" rel="stylesheet">
-<link type="text/css" media="all" href="{{ asset('css/font-awesome.min.css') }}" rel="stylesheet">
-<link type="text/css" media="all" href="{{ asset('css/style.css') }}" rel="stylesheet">
-<link type="text/css" media="all" href="{{ asset('css/color/orange.css') }}" rel="stylesheet">
+<link type="text/css" media="all" href="{{ secure_asset('css/bootstrap.min.css') }}" rel="stylesheet">
+<link type="text/css" media="all" href="{{ secure_asset('css/jquery.animatedheadline.css') }}" rel="stylesheet">
+<link type="text/css" media="all" href="{{ secure_asset('css/font-awesome.min.css') }}" rel="stylesheet">
+<link type="text/css" media="all" href="{{ secure_asset('css/style.css') }}" rel="stylesheet">
+<link type="text/css" media="all" href="{{ secure_asset('css/color/orange.css') }}" rel="stylesheet">
 </head>
 
 <body class="dark hero_bg_image_two">
@@ -97,7 +97,7 @@
         <div class="row vfx-personal-about-info">
           <!-- Personal Infos Starts -->
           <div class="col-xl-5 col-lg-5 col-md-12 col-sm-12">
-            <div class="image-container"> <img class="img-fluid d-block" src="{{ asset('img/user_about_1.jpg') }}"  alt="" /> </div>
+            <div class="image-container"> <img class="img-fluid d-block" src="{{ secure_asset('img/user_about_1.jpg') }}"  alt="" /> </div>
             <p class="d-block d-md-none">I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
           </div>
           <div class="row col-xl-7 col-lg-7 col-md-12 about-info-item">
@@ -449,37 +449,37 @@
               <ul class="row" id="portfolio-items">
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-1">
-				    <img src="{{ asset('img/projects/project-1.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-1.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Creative Web Developer</div>
                   </a>
 				</li>
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-2">
-				    <img src="{{ asset('img/projects/project-2.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-2.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Creative Web Developer</div>
                   </a>
 				</li>
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-3">
-				    <img src="{{ asset('img/projects/project-3.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-3.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Creative Web Developer</div>
                   </a>
 				</li>
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-4">
-				    <img src="{{ asset('img/projects/project-6.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-6.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Creative Web Designer</div>
                   </a>
 				</li>
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-5">
-				    <img src="{{ asset('img/projects/project-5.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-5.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Creative Services Developer</div>
                   </a>
 				</li>
                 <li class="col-12 col-md-6 col-lg-4">
 				  <a href="#0" data-type="project-6">
-				    <img src="{{ asset('img/projects/project-4.jpg') }}" alt="Project" class="img-fluid">
+				    <img src="{{ secure_asset('img/projects/project-4.jpg') }}" alt="Project" class="img-fluid">
 					<div class="portfolio-title">Marketing Manager</div>
                   </a>
 				</li>
@@ -494,7 +494,7 @@
       <!-- Portfolio Content Starts -->
       <div class="vfx-project-info project-1">
 	    <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i></span></a>
-        <div class="vfx-project-info-main-content"> <img src="{{ asset('img/projects/project-1.jpg') }}" alt="Project Image"></div>
+        <div class="vfx-project-info-main-content"> <img src="{{ secure_asset('img/projects/project-1.jpg') }}" alt="Project Image"></div>
       </div>
 
       <div class="vfx-project-info project-2">
@@ -511,9 +511,9 @@
         <div class="vfx-project-info-main-content">
           <div id="slider" class="carousel slide portfolio-slider" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active"><img src="{{ asset('img/projects/project-1.jpg') }}" alt="slide"></div>
-              <div class="carousel-item"><img src="{{ asset('img/projects/project-2.jpg') }}" alt="slide"></div>
-              <div class="carousel-item"><img src="{{ asset('img/projects/project-3.jpg') }}" alt="slide"></div>
+              <div class="carousel-item active"><img src="{{ secure_asset('img/projects/project-1.jpg') }}" alt="slide"></div>
+              <div class="carousel-item"><img src="{{ secure_asset('img/projects/project-2.jpg') }}" alt="slide"></div>
+              <div class="carousel-item"><img src="{{ secure_asset('img/projects/project-3.jpg') }}" alt="slide"></div>
             </div>
             <a class="carousel-control-prev" href="#slider" data-slide="prev"> <span class="fa fa-chevron-left carousel-controls"></span> </a> <a class="carousel-control-next" href="#slider" data-slide="next"> <span class="fa fa-chevron-right carousel-controls"></span> </a>
 		 </div>
@@ -523,20 +523,20 @@
       <div class="vfx-project-info project-4">
 	    <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i></span></a>
         <div class="vfx-project-info-main-content">
-          <video id="video" class="responsive-video" controls poster="{{ asset('img/projects/project-6.jpg') }}">
-            <source src="{{ asset('img/projects/video.mp4') }}" type="video/mp4">
+          <video id="video" class="responsive-video" controls poster="{{ secure_asset('img/projects/project-6.jpg') }}">
+            <source src="{{ secure_asset('img/projects/video.mp4') }}" type="video/mp4">
           </video>
         </div>
       </div>
 
       <div class="vfx-project-info project-5">
 	    <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i></span></a>
-        <div class="vfx-project-info-main-content"> <img src="{{ asset('img/projects/project-5.jpg') }}" alt="Project Image"></div>
+        <div class="vfx-project-info-main-content"> <img src="{{ secure_asset('img/projects/project-5.jpg') }}" alt="Project Image"></div>
       </div>
 
       <div class="vfx-project-info project-6">
 	    <a href="#" class="btn btn-secondary close-project"><span><i class="fa fa-close"></i></span></a>
-        <div class="vfx-project-info-main-content"> <img src="{{ asset('img/projects/project-4.jpg') }}" alt="Project Image"></div>
+        <div class="vfx-project-info-main-content"> <img src="{{ secure_asset('img/projects/project-4.jpg') }}" alt="Project Image"></div>
       </div>
       <!-- Portfolio Content Ends -->
       <span class="vfx-back-mobile close-project"><i class="fa fa-arrow-right"></i></span>
@@ -663,7 +663,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-1.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-1.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -680,7 +680,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-2.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-2.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -697,7 +697,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-3.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-3.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -714,7 +714,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-4.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-4.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -731,7 +731,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-5.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-5.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -748,7 +748,7 @@
           <div class="col-12 col-lg-4 col-sm-6 col-xs-12">
             <article>
               <figure class="vfx-blog-figure">
-			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ asset('img/blog/blog-post-6.jpg') }}" alt=""></a>
+			    <a href="partials/blog-post.html"><img class="img-fluid" src="{{ secure_asset('img/blog/blog-post-6.jpg') }}" alt=""></a>
                 <div class="post-date">12 March, 2020</div>
               </figure>
 			  <div class="card-body post-content">
@@ -784,13 +784,13 @@
 <!-- Preloader Ends -->
 
 <!-- Jquery -->
-<script src="{{ asset('js/jquery-3.4.1.min.js') }}"></script>
-<script src="{{ asset('js/jquery.animatedheadline.js') }}"></script>
-<script src="{{ asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ asset('js/transition.js') }}"></script>
-<script src="{{ asset('js/modernizr.js') }}"></script>
+<script src="{{ secure_asset('js/jquery-3.4.1.min.js') }}"></script>
+<script src="{{ secure_asset('js/jquery.animatedheadline.js') }}"></script>
+<script src="{{ secure_asset('js/bootstrap.min.js') }}"></script>
+<script src="{{ secure_asset('js/transition.js') }}"></script>
+<script src="{{ secure_asset('js/modernizr.js') }}"></script>
 <!-- Main JS -->
-<script src="{{ asset('js/custom_jquery.js') }}"></script>
+<script src="{{ secure_asset('js/custom_jquery.js') }}"></script>
 </body>
 
 </html>
